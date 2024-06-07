@@ -33,9 +33,11 @@
     margin: 150px;
 }
 
-.page-item {
+.page-link {
+    display: block;
     width: 200px;
-    padding: 30px 60px;
+    height: auto;
+    padding: 20px 20px;
     border: 1px solid rgb(3, 107, 128);
     border-radius: 8px;
     background-color: rgb(73, 237, 139);
@@ -45,6 +47,7 @@
     color: #122722;
 }
 
-.page-item:hover {
+
+.page-link:hover {
     background-color: #2bc940;
 }
